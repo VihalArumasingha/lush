@@ -7,6 +7,7 @@ import {
 import "./globals.css";
 
 import Header from "../components/header"
+import Footer from "../components/Footer"
 
 const quicksand = Quicksand({
   subsets: ["latin"],
@@ -38,7 +39,7 @@ export default function RootLayout({ children }) {
       <body className={quicksand.className}>
         <Header />
         {children}
-
+      <Footer />
       </body>
 
     </html>

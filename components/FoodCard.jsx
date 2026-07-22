@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 export default function FoodCard({
+    id,
     image,
     name,
     price,
@@ -6,49 +9,45 @@ export default function FoodCard({
 }) {
 
     return (
-
-        <div className="w-[390px] bg-[#FFE1CC] rounded-[35px] shadow-md">
-
-            {/* Image */}
+        <Link href={`/products/${id}`}>
 
 
-            <div className="flex-column">
-                <div className="w-full h-[300px] overflow-hidden rounded-[30px]">
+            <div className="w-[390px] bg-[#FFE1CC] rounded-[35px] shadow-md">
 
-                    <img
-                        src={image}
-                        alt={name}
-                        className="w-full h-full object-cover"
-                    />
 
-                </div>
+                <div className="flex-column">
+                    <div className="w-full h-[300px] overflow-hidden rounded-[30px]">
 
-                <div className="p-4">
-                    {/* Name + Price */}
-                    <div className="flex justify-between items-center mt-5 px-2">
-
-                        <h2 className="text-xl font-semibold">
-                            {name}
-                        </h2>
-
-                        <p className="text-xl font-medium">
-                            Rs.{price}
-                        </p>
+                        <img
+                            src={image}
+                            alt={name}
+                            className="w-full h-full object-cover"
+                        />
 
                     </div>
 
+                    <div className="p-4">
+                        <div className="flex justify-between items-center mt-5 px-2">
 
-                    {/* Description */}
-                    <p className="text-gray-700 text-sm mt-6 px-2 leading-5">
+                            <h2 className="text-xl font-bold">
+                                {name}
+                            </h2>
 
-                        {description}
+                            <p className="text-xl font-bold">
+                                Rs.{price}
+                            </p>
 
-                    </p>
+                        </div>
 
 
-                    {/* Button */}
-                    <button
-                        className="
+                        <p className="text-gray-700 text-sm mt-6 px-2 leading-5">
+
+                            {description}
+
+                        </p>
+
+                        <button
+                            className="
                             w-full
                             mt-8
                             bg-[#FF9B52]
@@ -59,20 +58,22 @@ export default function FoodCard({
                             hover:bg-[#ff8840]
                             transition
                             "
-                    >
+                        >
 
-                        Order Now
+                            Order Now
 
-                    </button>
+                        </button>
+                    </div>
                 </div>
+
+
+
+
+
+
             </div>
+        </Link>
 
-
-
-
-
-
-        </div>
 
     );
 }
