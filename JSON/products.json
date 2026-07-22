@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Burger",
+    "price": 18.99,
+    "category": ["main"],
+    "cuisineStyle": ["signature", "asian"],
+    "dietaryPreferences": ["non-vegan", "non-spicy"],
+    "shortDescription": "A premium beef burger layered with melted cheese, fresh vegetables, and our signature sauce, served in a toasted brioche bun.",
+    "longDescription": "The Classic LUSH Cheeseburger is a timeless favorite crafted with a juicy premium beef patty, melted cheddar cheese, crisp lettuce, fresh tomatoes, caramelized onions, and our signature house-made sauce. Served inside a soft golden brioche bun, every bite delivers the perfect balance of rich flavors and textures. Carefully prepared by our chefs, this burger represents comfort food elevated to a premium dining experience.",
+    "features": [
+      "Handcrafted",
+      "Cheesy",
+      "Premium Beef",
+      "Signature Sauce"
+    ],
+    "img": "/360_F_279764101_ai492SXhESzs6f3eQa1YgGTQerKazSlQ.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Truffle Pizza",
+    "price": 22.99,
+    "category": ["pizza"],
+    "cuisineStyle": ["italian", "signature"],
+    "dietaryPreferences": ["vegetarian", "non-spicy"],
+    "shortDescription": "A handcrafted pan pizza topped with premium cheese, fresh vegetables, aromatic herbs, and truffle flavor.",
+    "longDescription": "Our Truffle Garden Pan Pizza combines a crispy golden crust with rich flavors and carefully selected ingredients. Topped with creamy mozzarella, fresh vegetables, aromatic herbs, and a delicate truffle essence, this signature pizza delivers a luxurious taste in every slice.",
+    "features": [
+      "Handcrafted",
+      "Italian Style",
+      "Truffle Flavor",
+      "Fresh Vegetables"
+    ],
+    "img": "/360_F_279764101_ai492SXhESzs6f3eQa1YgGTQerKazSlQ.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dragon Sushi",
+    "price": 24.99,
+    "category": ["sushi-rolls"],
+    "cuisineStyle": ["japanese", "seafood"],
+    "dietaryPreferences": ["non-vegan", "spicy"],
+    "shortDescription": "A signature sushi roll featuring fresh seafood, creamy avocado, and traditional Japanese flavors.",
+    "longDescription": "The Dragon Roll Deluxe is one of LUSH's signature creations, inspired by Japanese culinary traditions. This handcrafted roll combines fresh seafood, creamy avocado, cucumber, premium toppings, and special sauce to create a perfect balance of flavor and presentation.",
+    "features": [
+      "Fresh Seafood",
+      "Japanese Style",
+      "Handcrafted",
+      "Spicy"
+    ],
+    "img": "/images/dragon-sushi.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wagyu Steak",
+    "price": 39.99,
+    "category": ["main"],
+    "cuisineStyle": ["signature", "asian"],
+    "dietaryPreferences": ["non-vegan", "non-spicy"],
+    "shortDescription": "Tender Wagyu beef grilled to perfection and served with seasonal vegetables and signature sauce.",
+    "longDescription": "Experience the richness of premium Wagyu beef, carefully grilled to preserve its natural tenderness and flavor. Served with fresh seasonal vegetables and a specially crafted sauce, this dish represents the perfect combination of simplicity and sophistication.",
+    "features": [
+      "Premium Beef",
+      "Grilled",
+      "Fine Dining",
+      "Signature Sauce"
+    ],
+    "img": "/images/wagyu-steak.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Black Cod",
+    "price": 31.99,
+    "category": ["main"],
+    "cuisineStyle": ["japanese", "seafood"],
+    "dietaryPreferences": ["non-vegan", "non-spicy"],
+    "shortDescription": "A delicate black cod fillet glazed with sweet miso sauce and Japanese-inspired flavors.",
+    "longDescription": "Our Miso Glazed Black Cod is inspired by traditional Japanese cooking techniques. The fish is marinated in a sweet and savory miso glaze before being carefully cooked to achieve a soft, buttery texture.",
+    "features": [
+      "Sea Food",
+      "Japanese Style",
+      "Miso Glazed",
+      "Premium Fish"
+    ],
+    "img": "/images/black-cod.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Seafood Ramen",
+    "price": 19.99,
+    "category": ["main"],
+    "cuisineStyle": ["japanese", "seafood", "asian"],
+    "dietaryPreferences": ["non-vegan", "spicy"],
+    "shortDescription": "A comforting bowl of ramen with rich broth, fresh seafood, and authentic Japanese flavors.",
+    "longDescription": "Our Spicy Seafood Ramen combines a rich flavorful broth with fresh seafood, handmade noodles, vegetables, and carefully selected spices. This dish delivers warmth, depth, and a satisfying experience with every spoonful.",
+    "features": [
+      "Spicy",
+      "Seafood",
+      "Hot Broth",
+      "Japanese Style"
+    ],
+    "img": "/images/seafood-ramen.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shrimp Tempura",
+    "price": 16.99,
+    "category": ["appetizers"],
+    "cuisineStyle": ["japanese", "seafood"],
+    "dietaryPreferences": ["non-vegan", "non-spicy"],
+    "shortDescription": "Light and crispy shrimp tempura served with a traditional dipping sauce.",
+    "longDescription": "Our Crispy Shrimp Tempura features fresh shrimp coated in a delicate batter and fried until perfectly golden and crunchy. Served with traditional dipping sauce, this dish captures the elegance of Japanese cooking.",
+    "features": [
+      "Crispy",
+      "Seafood",
+      "Japanese Style",
+      "Golden Fried"
+    ],
+    "img": "/images/shrimp-tempura.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mushroom Pasta",
+    "price": 17.99,
+    "category": ["main"],
+    "cuisineStyle": ["italian"],
+    "dietaryPreferences": ["vegetarian", "non-spicy"],
+    "shortDescription": "A rich Italian-inspired pasta dish with creamy sauce, fresh mushrooms, and parmesan cheese.",
+    "longDescription": "This creamy mushroom pasta combines perfectly cooked pasta with a rich velvety sauce infused with fresh mushrooms and herbs. Finished with parmesan cheese and delicate seasoning.",
+    "features": [
+      "Creamy",
+      "Italian Style",
+      "Vegetarian",
+      "Fresh Herbs"
+    ],
+    "img": "/images/mushroom-pasta.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Matcha Cheesecake",
+    "price": 12.99,
+    "category": ["appetizers"],
+    "cuisineStyle": ["japanese", "signature"],
+    "dietaryPreferences": ["vegetarian", "non-spicy"],
+    "shortDescription": "A smooth Japanese-inspired cheesecake infused with premium matcha flavors.",
+    "longDescription": "Our Matcha Cheesecake combines the richness of classic cheesecake with premium Japanese matcha. With a creamy texture and balanced sweetness, it provides the ideal ending to your LUSH dining experience.",
+    "features": [
+      "Sweet",
+      "Matcha Flavor",
+      "Creamy",
+      "Japanese Style"
+    ],
+    "img": "/images/matcha-cheesecake.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Yuzu Refresher",
+    "price": 8.99,
+    "category": ["appetizers"],
+    "cuisineStyle": ["japanese", "signature"],
+    "dietaryPreferences": ["vegan", "non-spicy"],
+    "shortDescription": "A refreshing citrus drink made with Japanese yuzu, sparkling water, and fresh mint.",
+    "longDescription": "The Yuzu Sparkling Refresher is crafted with Japanese yuzu citrus, sparkling water, and fresh mint. Its unique combination of sweetness and citrus freshness makes it the perfect companion for any LUSH signature dish.",
+    "features": [
+      "Refreshing",
+      "Citrus Flavor",
+      "Vegan",
+      "Fresh Mint"
+    ],
+    "img": "/images/yuzu-refresher.jpg"
+  }
+]
