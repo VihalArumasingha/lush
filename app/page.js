@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { mochiy } from "./layout";
 import { quicksand } from "./layout";
 import FoodCard from "../components/FoodCard";
@@ -6,8 +7,17 @@ export default function Home() {
 
   return (
     <div>
-      <div className="flex">
-        <div className="flex-[50%]">
+      <div className="main-div relative isolate flex">
+        <div className="absolute inset-y-0 left-1/2 z-0 w-screen -translate-x-1/2">
+          <Image
+            className="object-cover"
+            src="/homebg.jpg"
+            alt=""
+            fill
+            aria-hidden="true"
+          />
+        </div>
+        <div className="relative z-10 flex-[50%]">
           <h2 className={`${mochiy.className} text-[85px]`}>
             Enjoy healthy and delicious foods
           </h2>
@@ -25,7 +35,7 @@ export default function Home() {
 
         </div>
 
-        <div>
+        <div className="relative z-10">
           <img className="w-[700px]" src="image-of-a-sushi-roll-held-by-chopsticks-on-a-transparent-background-free-png.webp" alt="sushi image" />
         </div>
 
