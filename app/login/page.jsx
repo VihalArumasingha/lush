@@ -2,6 +2,9 @@ import Image from "next/image";
 import { mochiy } from "../layout"
 
 export default function Login(){
+    function loginChecker(){
+        
+    }
     return(
         <section
             className="relative isolate -mx-[30px] -my-[20px] overflow-hidden"
