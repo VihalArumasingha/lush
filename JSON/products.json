@@ -31,7 +31,7 @@
       "Truffle Flavor",
       "Fresh Vegetables"
     ],
-    "img": "/360_F_279764101_ai492SXhESzs6f3eQa1YgGTQerKazSlQ.jpg"
+    "img": "/pizza.jpg"
   },
   {
     "id": 3,
@@ -48,7 +48,7 @@
       "Handcrafted",
       "Spicy"
     ],
-    "img": "/images/dragon-sushi.jpg"
+    "img": "/sushi.webp"
   },
   {
     "id": 4,
@@ -65,7 +65,7 @@
       "Fine Dining",
       "Signature Sauce"
     ],
-    "img": "/images/wagyu-steak.jpg"
+    "img": "/steak.jpg"
   },
   {
     "id": 5,
@@ -82,7 +82,7 @@
       "Miso Glazed",
       "Premium Fish"
     ],
-    "img": "/images/black-cod.jpg"
+    "img": "/cod.jpg"
   },
   {
     "id": 6,
@@ -99,7 +99,7 @@
       "Hot Broth",
       "Japanese Style"
     ],
-    "img": "/images/seafood-ramen.jpg"
+    "img": "/ramen.jpg"
   },
   {
     "id": 7,
@@ -116,7 +116,7 @@
       "Japanese Style",
       "Golden Fried"
     ],
-    "img": "/images/shrimp-tempura.jpg"
+    "img": "/shrimp.jpg"
   },
   {
     "id": 8,
@@ -133,7 +133,7 @@
       "Vegetarian",
       "Fresh Herbs"
     ],
-    "img": "/images/mushroom-pasta.jpg"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT512SBsJIR4MNMudM9rT7PGARloHUOca3tC8jRe5cHjBRmDo5KjwIhuimx&s=10"
   },
   {
     "id": 9,
@@ -150,7 +150,7 @@
       "Creamy",
       "Japanese Style"
     ],
-    "img": "/images/matcha-cheesecake.jpg"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHaE1cWhIGv11Tzya9G3QT7fTNQBogTM1B-xXV2ksXdXDn0El_67rQGa3_&s=10"
   },
   {
     "id": 10,
@@ -167,6 +167,6 @@
       "Vegan",
       "Fresh Mint"
     ],
-    "img": "/images/yuzu-refresher.jpg"
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn6Syrym0_GtlaOZ1POXFcyhHrVsBRHjszcBnYFKIk0NZHLE17_YbIlm0C&s=10"
   }
 ]

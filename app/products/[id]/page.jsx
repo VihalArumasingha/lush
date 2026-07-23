@@ -19,7 +19,7 @@ export default async function ProductPage({ params }) {
             <div className="flex w-[100%]">
                 <div className="flex-1">
                     <h1 className={`${mochiy.className} text-5xl`}>{product.name}</h1>
-                    <h3 className={`${mochiy.className} text-2xl mt-[40px]`}>Rs. {product.price}</h3>
+                    <h3 className={`${mochiy.className} text-2xl mt-[40px]`}>$ {product.price}</h3>
                     <hr className="w-[100px] mt-[40px]" />
                     <p className="mt-[24px] pr-[71px]">{product.longDescription}</p>
                     <div className="flex mt-[50px] gap-[30px]">

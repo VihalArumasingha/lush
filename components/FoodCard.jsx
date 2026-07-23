@@ -34,7 +34,7 @@ export default function FoodCard({
                             </h2>
 
                             <p className="text-xl font-bold">
-                                Rs.{price}
+                                ${price}
                             </p>
 
                         </div>
