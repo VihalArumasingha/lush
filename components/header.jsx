@@ -9,6 +9,8 @@ export default function Header() {
         <a href="../"><li>Home</li></a>
         <a href="../products"><li>Menu</li></a>
         <a href="../contact"><li>Contact</li></a>
+        <a href="../services"><li>Services</li></a>
+
       </ul>
       
       
